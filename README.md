@@ -29,21 +29,24 @@ This project is based on an anonymized and significantly reduced sample dataset 
 - Executive overview of key Profit & Loss KPIs
 - Parameter-driven variance analysis (Actual YTD or Forecast vs Actual previous year or Budget) to facilitate root cause analysis of financial deviations
 - Parameter-driven time-based visualization (can be selected to show EBIT, Net Sales, COGS, R & D, SG & A)
-
+![Financial Overview](images/FinancialOverview.png)
 
 ## Waterfall Details
 - In-depth root cause analysis of financial deviations, 
 - Volume-, price-, mix-variance analysis for Sales and Material cost
+![Waterfall Details](images/WaterfallDetails.png)
 
 ## Delta Sales by Product Group
 Drill-down of Sales variances by Product group / product and volume-, price-, mix-effect
+![Delta Sales by Product Group](images/DeltaSalesByProductGroup.png)
 
 ## Delta Material by Material Group
 Drill-down of Material cost variances by Material group / material and volume-, price-, mix-effect
+![Delta Material by Material Group](images/DeltaMaterialByMaterialGroup.png)
 
 ## Financial Simulation
 EBIT scenario simulation using configurable business drivers
-
+![Financial Simulation](images/FinancialSimulation.png)
 
 # Key KPIs
 - EBIT
@@ -64,8 +67,11 @@ EBIT scenario simulation using configurable business drivers
 - Excel & SQL used in the preparation of the dataset
 
 # Data Model
+![Data Model](images/Datamodel.png)
 
 # DAX Examples
+<img width="455" height="357" alt="DAX_OriginalAmount" src="https://github.com/user-attachments/assets/ff4dfde4-6fce-4f35-9b2e-64d769d6eb13" />
+<img width="525" height="740" alt="DAX_SimulationMaterialCost" src="https://github.com/user-attachments/assets/385eff91-b65c-4915-97ef-9c3bd2146608" />
 
 # Contact
 LinkedIn: 
