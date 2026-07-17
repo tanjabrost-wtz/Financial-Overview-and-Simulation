@@ -15,7 +15,9 @@ The report helps answer questions such as:
 - How would an increase of x% in freight cost for materials sourced from Asia affect EBIT?
 
 # Dataset
-This project is based on an anonymized and significantly reduced sample dataset created for demonstration purposes.
+This project is based on an anonymized and significantly reduced sample dataset created for demonstration purposes.  
+
+Please note: due to an inconsistency in the dataset I received, the simulation shows a small delta in COGS even if all simulation parameters are set to 0. This is due to the fact that the used material quantity in the bill of material has decimals, but the material quantity in the fact table is an integer.
 
 # Report
 - Parameter-driven visualizations
@@ -37,11 +39,11 @@ This project is based on an anonymized and significantly reduced sample dataset 
 ![Waterfall Details](images/WaterfallDetails.png)
 
 ## Delta Sales by Product Group
-Drill-down of Sales variances by Product group / product and volume-, price-, mix-effect
+Drill-down of Sales variances by product group / product and volume-, price-, mix-effect
 ![Delta Sales by Product Group](images/DeltaSalesByProductGroup.png)
 
 ## Delta Material by Material Group
-Drill-down of Material cost variances by Material group / material and volume-, price-, mix-effect
+Drill-down of Material cost variances by material group / material and volume-, price-, mix-effect
 ![Delta Material by Material Group](images/DeltaMaterialByMaterialGroup.png)
 
 ## Financial Simulation
@@ -64,7 +66,6 @@ EBIT scenario simulation using configurable business drivers
 - Power Query
 - Power BI
 - DAX
-- Excel & SQL used in the preparation of the dataset
 
 # Data Model
 ![Data Model](images/Datamodel.png)
